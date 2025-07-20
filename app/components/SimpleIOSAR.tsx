@@ -37,7 +37,7 @@ export default function SimpleIOSAR({ src, alt = "3D Model", style }: SimpleIOSA
           modelViewer.setAttribute('min-camera-orbit', '0deg 75deg 2.5m');
           modelViewer.setAttribute('max-camera-orbit', '0deg 75deg 2.5m');
           // Set initial scale (smaller, so user isn't inside the model)
-          modelViewer.setAttribute('scale', '0.01 0.01 0.01');
+          modelViewer.setAttribute('scale', '0.05 0.05 0.05');
           // Set initial orientation (Y axis rotation example, adjust as needed)
           modelViewer.setAttribute('rotation', '0deg 0deg 0deg');
           // Maximize visibility
